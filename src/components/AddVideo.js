@@ -2,7 +2,7 @@ import './AddVideo.css';
 import {useState} from 'react';
 
 const initialState = {
-    time: '1 month ago',
+    time: '4 month ago',
     channel: 'Coder Dost',
     verified: true,
     title:'',
@@ -45,6 +45,7 @@ function AddVideo({addVideos}) {
       >
         Add Video
       </button>
+      
     </form>
   );
 }
