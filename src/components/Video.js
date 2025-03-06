@@ -11,8 +11,8 @@ function Video({title,id,channel="Coder Dost",views,time,verified,children,editV
   return (
       <>
       <div className={`container ${theme}`}>
-      <button className='close' onClick={()=>dispatch({type:'DELETE',payload:id})}>X</button>  
-      <button className='edit' onClick={()=>editVideo(id)}>Edit</button>  
+      <button className='Close' onClick={()=>dispatch({type:'DELETE',payload:id})}>X</button>  
+      <button className='Edit' onClick={()=>editVideo(id)}>Edit</button>  
       <div className="pic">
       <img src={`https://picsum.photos/id/${id}/160/90`} alt="Katherine Johnson" />
       </div>
