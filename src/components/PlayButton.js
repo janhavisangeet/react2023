@@ -2,7 +2,7 @@ import './PlayButton.css';
 import { useContext, useState } from 'react';
 import ThemeContext from '../context/ThemeContext';
 
-function PlayButton({message,children,onPlay,onPause}){
+function PlayButton({children,onPlay,onPause}){
     console.log('render PlayButton')
     const theme = useContext(ThemeContext)
 
