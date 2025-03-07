@@ -2,11 +2,11 @@ import Video from "./Video";
 import PlayButton from "./PlayButton";
 import useVideos from "../hooks/Videos";
 import axios from 'axios';
-import {useState, useEffect} from 'react';
+import { useEffect} from 'react';
 import useVideoDispatch from "../hooks/VideoDispatch";
 
 function VideoList({editVideo}){
-   const url ="https://my.api.mockaroo.com/video.json?key=2a12c4d0"
+   const url ="https://my.api.mockaroo.com/movies.json?key=db0b1df0"
 
    const videos = useVideos()
    const dispatch = useVideoDispatch();
